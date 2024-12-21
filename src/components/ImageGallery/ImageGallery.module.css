@@ -1,0 +1,21 @@
+.ImageGallery {
+    display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        padding: 20px;
+        list-style-type: none;
+        margin: 0;
+}
+
+.PhotoCard {
+        overflow: hidden;
+        width: 360px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+
+}
+
+.PhotoCard:hover {
+    transform: scale(1.05);
+}
